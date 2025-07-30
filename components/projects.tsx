@@ -78,40 +78,40 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Monitoring Inventory Controller",
       description:
-        "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-      liveUrl: "https://ecommerce-demo.com",
-      githubUrl: "https://github.com/username/ecommerce",
+        "A full-featured  platform with real-time inventory management, status and admin dashboard.",
+      image: "/monicon.png",
+      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      liveUrl: "https://monicon.id",
+      githubUrl: "blank",
     },
     {
-      title: "AI Task Manager",
+      title: "Login and Registration System",
       description:
-        "Smart task management app that uses AI to categorize, prioritize, and suggest optimal task scheduling.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
-      liveUrl: "https://ai-taskmanager.com",
-      githubUrl: "https://github.com/username/ai-taskmanager",
+        "Smart task management app to categorize, prioritize, and suggest optimal task scheduling.",
+      image: "/loginpage.png",
+      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      liveUrl: "https://sop.monicon.id/login.php",
+      githubUrl: "blank",
     },
     {
-      title: "Real-time Chat Application",
+      title: "Activity Tracker",
       description:
-        "Feature-rich chat application with real-time messaging, file sharing, and video calls.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Socket.io", "WebRTC", "Node.js", "Redis"],
-      liveUrl: "https://chatapp-demo.com",
-      githubUrl: "https://github.com/username/chat-app",
+        "Feature-rich monitors and records user activity, typically for productivity, or time management purposes.",
+      image: "/activity.png",
+      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      liveUrl: "https://ans.monicon.id/login.php",
+      githubUrl: "blank",
     },
     {
-      title: "AI Image Generator",
+      title: "Online Survey Form Generator",
       description:
-        "An AI image generator that uses a model to generate images based on a prompt.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn UI"],
-      liveUrl: "https://ai-image-generator.com",
-      githubUrl: "https://github.com/username/ai-image-generator",
+        "An online survey generator based on a prompt.",
+      image: "/demo.png",
+      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      liveUrl: "https://form.ans-survei.com",
+      githubUrl: "blank",
     },
   ];
 

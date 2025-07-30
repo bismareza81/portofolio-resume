@@ -54,28 +54,28 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
+      title: "Research and Development Supervisor",
+      company: "PT Ayaskara Nisita Synergy",
+      period: "Feb 2025 - Present",
       description:
-        "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+        "Led the cross-functional teams to understand their data needs and provide analytical support tailored to their specific business processes.",
+      technologies: ["Tableau", "Visual Studio Code", "KoboCollect", "OwnCloud", "Scrum"],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2019 - 2021",
+      title: "Business Data Analyst",
+      company: "PT Ayaskara Nisita Synergy",
+      period: "Jan 2023 - Jun 2025",
       description:
-        "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
-      technologies: ["React", "Express.js", "PostgreSQL", "Docker", "Redis"],
+        "Develop and maintain multiple client projects, implemented comprehensive reports and presentations that communicate insights, derived from data analysis, influencing decision-making processes across departments.",
+      technologies: ["Ms. Office", "KoboCollect", "Trello", "Looker Studio", "MySQL Database"],
     },
     {
-      title: "Frontend Developer",
-      company: "WebTech Studios",
-      period: "2018 - 2019",
+      title: "Project Management Officer",
+      company: "PT. Sucofindo",
+      period: "Jun 2019- Dec 2022",
       description:
-        "Created responsive and interactive user interfaces, collaborated with designers, and optimized application performance.",
-      technologies: ["React", "JavaScript", "SASS", "Webpack", "Jest"],
+        "Facilitate communication between project teams and stakeholders to ensure alignment on project goals and expectations. Conduct regular meetings to discuss project status and gather feedback.",
+      technologies: ["Ms. Office", "Trello", "Zimbra Webmail", "Zoom", "Jest"],
     },
   ];
 

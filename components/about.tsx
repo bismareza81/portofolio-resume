@@ -1,10 +1,9 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
-import { GithubLogo } from "./icons";
+import { GithubLogo, LinkedinLogo } from "./icons";
 
 const About = () => {
   return (
@@ -20,25 +19,28 @@ const About = () => {
             </Badge>
             <ProfileImage className="mt-3 mb-8 block md:hidden" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
-              Passionate about creating impactful web experiences
+              Passionate about creating impactful business impact!
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              With over 5 years of experience in full-stack development, I
-              specialize in building scalable web applications using modern
-              technologies. My expertise includes React, Node.js, and cloud
-              architecture. I&apos;m passionate about creating elegant solutions
-              to complex problems and sharing knowledge with the developer
-              community.
+              With over 3 years of experience in data analyst, I
+              specialize in building Data Visualization, Project Management, and Machine Learning using modern technologies.
+              I focus on enhancing project efficiency while fostering collaboration and clarity.
+              In a world where media is often misused,
+              I&apos;m committed to leveraging it for positive impact — contributing to environmental and social progress, while helping build sustainable and profitable ventures.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
-                <GithubLogo />
-                View Github
-              </Button>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Download CV
-              </Button>
+              <a href="https://github.com/bismareza81" target="_blank" rel="noopener noreferrer">
+                <Button className="rounded-full">
+                  <GithubLogo />
+                  View Github
+                </Button>
+              </a>
+              <a href="https://linkedin.com/in/bismaboostXP" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="rounded-full">
+                  <LinkedinLogo />
+                  Linkedin
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -53,7 +55,7 @@ const ProfileImage = ({
 }: HTMLAttributes<HTMLDivElement>) => (
   <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
-      <Image src="/placeholder.svg" alt="" className="object-cover" fill />
+      <Image src="/potrait.png" alt="" className="object-cover" fill />
     </div>
   </div>
 );
