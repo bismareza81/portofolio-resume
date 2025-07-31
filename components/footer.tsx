@@ -1,6 +1,5 @@
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { DribbleLogo, GithubLogo, XLogo } from "./icons";
 
 const footerLinks = [
   {
