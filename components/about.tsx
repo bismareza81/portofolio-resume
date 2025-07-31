@@ -19,7 +19,7 @@ const About = () => {
             </Badge>
             <ProfileImage className="mt-3 mb-8 block md:hidden" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
-              Passionate about creating impactful business impact!
+              Committed to facilitating impactful and strategic business decisions.
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
               With over 3 years of experience in data analyst, I

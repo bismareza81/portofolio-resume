@@ -82,7 +82,7 @@ const Projects = () => {
       description:
         "A full-featured  platform with real-time inventory management, status and admin dashboard.",
       image: "/monicon.png",
-      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      technologies: ["MySQL", "ORM", "Laravel", "MyPHPAdmin"],
       liveUrl: "https://monicon.id",
       githubUrl: "blank",
     },
@@ -91,7 +91,7 @@ const Projects = () => {
       description:
         "Smart task management app to categorize, prioritize, and suggest optimal task scheduling.",
       image: "/loginpage.png",
-      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      technologies: ["MySQL", "ORM", "Laravel", "MyPHPAdmin"],
       liveUrl: "https://sop.monicon.id/login.php",
       githubUrl: "blank",
     },
@@ -100,7 +100,7 @@ const Projects = () => {
       description:
         "Feature-rich monitors and records user activity, typically for productivity, or time management purposes.",
       image: "/activity.png",
-      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      technologies: ["MySQL", "ORM", "Laravel", "MyPHPAdmin"],
       liveUrl: "https://ans.monicon.id/login.php",
       githubUrl: "blank",
     },
@@ -109,7 +109,7 @@ const Projects = () => {
       description:
         "An online survey generator based on a prompt.",
       image: "/demo.png",
-      technologies: ["MySQL", "ORM", "Prisma", "MyPHPAdmin"],
+      technologies: ["KoboToolbox", "XLSForms", "Draw.io", "Asana"],
       liveUrl: "https://form.ans-survei.com",
       githubUrl: "blank",
     },
